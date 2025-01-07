@@ -83,15 +83,21 @@ As part of developing the **Bayan** platform, I implemented the following:
 1. **CRUD Operations**  
    - SubscriptionPost
    - Customer
-   - Contrac
+   - Contract
+     
+2. **Model**  
+  - Address
+  - Border
+  - ChatMessages
+  - Contract
     
-2. **DTO IN**  
+3. **DTO IN**  
 - CustomsBrokerDTO
 - DeliveryDTO
 - RequiredDocumentDTO
 - ReviewBrokerDTO
 
-3. **DTO OUT**   
+4. **DTO OUT**   
 - CbmResponseDTO
 - ChatMessageDTO
 - ContractDTO
@@ -99,8 +105,11 @@ As part of developing the **Bayan** platform, I implemented the following:
 - CustomBrokerFilterDTO
 - CustomBrokerForAdminDTO
 
+5. **Test**  
+- PostServiceTest
   
-4. **Extra Functionalities**  
+  
+6. **Extra Functionalities**  
    - `create-subscription-post`  
    - `get-all-subscription-posts`  
    - `create-subscription-post-for-broker`  
@@ -133,10 +142,10 @@ As part of developing the **Bayan** platform, I implemented the following:
 
                      
 
-5. **API Development**  
+7. **API Development**  
    Designed and implemented APIs for shipment tracking and management.
 
-6. **Testing**  
+8. **Testing**  
    Conducted comprehensive testing of controllers and services to ensure system reliability.
 
 ---
