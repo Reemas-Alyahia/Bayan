@@ -57,7 +57,7 @@
 
 ## 🔗 Links and Resources
 
-- [Figma Design](#)  
+- [Figma Design](https://www.figma.com/design/zTIO7kQz6k6514lARuOtXo/Untitled1?node-id=0-1&p=f&t=1OL4NiM8cWGly5It-0)  
 - [Presentation](#)  
 - [Postman API](https://documenter.getpostman.com/view/40740226/2sAYJAcwpL)  
 - [Diagrams Part 1](#)  
@@ -81,27 +81,62 @@ As part of developing the **Bayan** platform, I implemented the following:
 ### 🚀 Features Developed
 
 1. **CRUD Operations**  
-   - Shipments  
-   - Customs Brokers  
-   - Clients  
-   - Transactions  
+   - SubscriptionPost
+   - Customer
+   - Contrac
+    
+2. **DTO IN**  
+- CustomsBrokerDTO
+- DeliveryDTO
+- RequiredDocumentDTO
+- ReviewBrokerDTO
 
-2. **Extra Functionalities**  
-   - `getShipmentsByStatus(EXTRA)`  
-   - `getCustomsBrokersByLocation(EXTRA)`  
-   - `getShipmentsByClientType(EXTRA)`  
-   - `getPaymentsByMethod(EXTRA)`  
-   - `getShipmentDetailsById(EXTRA)`  
-   - `updateShipmentStatus(EXTRA)`  
-   - `generateCustomsDocumentation(EXTRA)`  
-   - `securePaymentProcessing(EXTRA)`  
-   - `customerSupportTickets(EXTRA)`  
-   - `shipmentAnalytics(EXTRA)`  
+3. **DTO OUT**   
+- CbmResponseDTO
+- ChatMessageDTO
+- ContractDTO
+- CustomBrokerDTO
+- CustomBrokerFilterDTO
+- CustomBrokerForAdminDTO
 
-3. **API Development**  
+  
+4. **Extra Functionalities**  
+   - `create-subscription-post`  
+   - `get-all-subscription-posts`  
+   - `create-subscription-post-for-broker`  
+   - `Get Posts For Broker`
+   - `/my-posts`
+   - `/ Get Posts For Broker`
+   - `Get Customer's Subscription Posts`  
+   - `create-sub-offer`  
+   - `accept-offer-for-subscription-post`  
+   - `/offer-statistics`  
+   - `general-post-statistics`  
+   - `by-category-shipment-type-country`
+   - `Get all posts by category and shipment type`
+   - `Getby-category-and-country`
+   - ` Get all posts by shipment type`
+   - `Get all posts by country of origin`
+   - `Get all posts by category`
+   - `Get all posts by border name`
+   - `getCustomerRentals`
+   -  `getCustomerWithRentals`  
+   - `broker-rentals`  
+   - `broker-with-rentals`
+   - `read-my-notifications/mark-as-read`
+   - `get-all-my-notifications`
+   - `/register"`
+   - `/my-account`
+   - `get Offer Statistics For Broker`
+   - `get Review Statistics For Broker`
+   - `EmailService`
+
+                     
+
+5. **API Development**  
    Designed and implemented APIs for shipment tracking and management.
 
-4. **Testing**  
+6. **Testing**  
    Conducted comprehensive testing of controllers and services to ensure system reliability.
 
 ---
